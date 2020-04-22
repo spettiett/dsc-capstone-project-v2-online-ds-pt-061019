@@ -1,0 +1,89 @@
+Lead Time:  1
+Country: PRT
+Customer Type:  Transient
+Market Segment: Online TA
+adr: 95.0
+[7, 0, 1, 95.0, 0, 26, 28.0, 21, 2, 0, 1, 2017, 0, 1, 1]
+array([0], dtype=int64)
+array([[0.73616886, 0.26383117]], dtype=float32)
+
+
+Lead Time:  3
+Country: PRT
+Customer Type:  Transient
+Market Segment: Online TA
+adr: 90.0
+[30, 0, 1, 90.0, 0, 26, 28.0, 21, 2, 0, 1, 2017, 0, 1, 1]
+array([1], dtype=int64)
+array([[0.39578658, 0.6042134 ]], dtype=float32)
+
+
+Lead Time:  2
+Country: PRT
+Customer Type:  Transient
+Market Segment: Online TA
+adr: 95.0
+[14, 0, 1, 95.0, 0, 26, 28.0, 21, 2, 0, 1, 2017, 0, 1, 1]
+array([0], dtype=int64)
+array([[0.57902175, 0.42097825]], dtype=float32)
+
+
+
+Lead Time:  3
+Country: FRA
+Customer Type:  Transient
+Market Segment: Online TA
+adr: 90.0
+[30, 0, 0, 90.0, 0, 26, 28.0, 21, 2, 0, 1, 2017, 0, 1, 1]
+array([0], dtype=int64)
+array([[0.5706357 , 0.42936435]], dtype=float32)
+
+
+Lead Time:  4
+Country: FRA
+Customer Type:  Transient
+Market Segment: Online TA
+adr: 90.0
+[180, 0, 0, 90.0, 0, 26, 28.0, 21, 2, 0, 1, 2017, 0, 1, 1]
+array([0], dtype=int64)
+array([[0.53212464, 0.46787533]], dtype=float32)
+
+
+Lead Time:  6
+Country: FRA
+Customer Type:  Transient
+Market Segment: Online TA
+adr: 80.0
+[365, 0, 0, 80.0, 0, 26, 28.0, 21, 2, 0, 1, 2017, 0, 1, 1]
+array([1], dtype=int64)
+array([[0.32305485, 0.67694515]], dtype=float32)
+
+
+Lead Time:  6
+Country: FRA
+Customer Type:  Transient
+Market Segment: Direct
+adr: 80.0
+[365, 0, 0, 80.0, 0, 26, 28.0, 21, 2, 0, 1, 2017, 0, 0, 1]
+array([0], dtype=int64)
+array([[0.8372601 , 0.16273989]], dtype=float32)
+
+
+Lead Time:  6
+Country: FRA
+Customer Type:  Transient
+Market Segment: Online TA
+adr: 80.0
+[365, 0, 0, 80.0, 0, 26, 28.0, 21, 2, 0, 1, 2017, 0, 1, 1]
+array([1], dtype=int64)
+array([[0.32305485, 0.67694515]], dtype=float32)
+
+
+Lead Time:  6
+Country: FRA
+Customer Type:  Transient
+Market Segment: Corporate
+adr: 80.0
+[365, 0, 0, 80.0, 0, 26, 28.0, 21, 2, 0, 1, 2017, 0, 0, 1]
+array([0], dtype=int64)
+array([[0.8372601 , 0.16273989]], dtype=float32)
