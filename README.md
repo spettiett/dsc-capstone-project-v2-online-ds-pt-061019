@@ -1,5 +1,5 @@
 
-![TOC_Image_Heading.png](attachment:TOC_Image_Heading.png)
+<IMG SRC="TOC_Image_Heading.png" ALT="Capstone Project">
 
 ## Final Project Submission
 
@@ -16,7 +16,7 @@
 
 > __Feature Description__
 
-![TOC_Image_FeatDesc.png](attachment:TOC_Image_FeatDesc.png)
+<IMG SRC="TOC_Image_FeatDesc.png" ALT="Feature Description">
 
 ## Acknowledgements
 
@@ -31,7 +31,7 @@
 - __Part II  :__ Jupyter Notebook: __Capstone_Hypothesis Testing.ipynb__
 - __Part III :__ Jupyter Notebook: __Capstone_ML_Model - (Baseline and FeatEngr).ipynb__
 - __Part IV  :__ Jupyter Notebook: __Capstone_ML_Model (Final Prediction).ipynb__
-- __Part V   :__ Jupyter Notebook: __Capstone_Model_Prediction_Using_Tkinter.ipynb__
+- __Part V   :__ Jupyter Notebook: __Capstone_Model_Prediction_Using_Tkinter.ipynb__(Demo)
 - __Part VI  :__ Jupyter Notebook: __Capstone_Time Series.ipynb__
 - __Part VII :__ Jupyter Notebook: __Capstone_Plotly_Graphs.ipynb__
 - __Part VIII:__ Jupyter Notebook: __Capstone_ML_Model(LazyPredict).ipynb__
@@ -67,17 +67,31 @@ __Machine Learning Models Used:__
 # Capstone Overview
 
 ## Project Motivation
-> As a person who loves to travel I was very curious to see if I could use my new found skills in data science to solve "one of my biggest pet peeves" - __hotel overbooking__.  But, first I would need to understand some of the drivers that create this unpleasant experience for customers, like myself. So, this project will walk you through several data science concepts and tools to help you gain more insights on important features used to predict hotel booking demand.
-
+> As a person who loves to travel I was very curious to see if I could use my new found skills in data science to solve "one of my biggest annoyances" - __hotel overbooking__.  But, first I would need to understand some of the drivers that create this unpleasant experience for customers, like myself. So, this project will walk you through several data science concepts and tools to help you gain more insights on important features used to predict hotel booking demand.
 
 ## Problem Statement
 - Reservations for resorts and hotels in __Lisbon, Portugal__ are experiencing __37%__ cancellations.
-![target_distribution_percnt.png](attachment:target_distribution_percnt.png)
+
+<IMG SRC="./PPT_IMG/target_distribution_percnt.png" ALT="Target Percent">
 
 ## Business Value
 > Equipped with more insightful information about __where, when, and why__ these cancellations are happening, a hotel’s revenue manager can make better informed decisions and improve overbooking strategies and cancellation policies.
 
-![TOC_Image_PRT-1.png](attachment:TOC_Image_PRT-1.png)
+__Questions to answer from the data:__
+
+- Where do the guests come from?
+- How much do guests pay for a room per night?
+- Which are the most busy month?
+- Bookings by market segment
+- How many bookings were canceled?
+- Which month have the highest number of cancelations?
+- Which hotel has more cancelations?
+- Any difference in lead time?
+- Any difference in market segments?
+- How about distribution channels?
+- How about Month, Day, and Week Number?
+
+<IMG SRC="./PPT_IMG/TOC_Image_PRT-1.png" ALT="TOC_Image_PRT">
 
 ## Hypothesis Testing
 
@@ -93,7 +107,7 @@ __Cancellation Percentage:__ 0-6 days = 2.5 % more than 30 days  85%.
 ## Machine Learning Modeling
 To tackle the uncertainty arising from booking cancellations, we reviewed the data from booking information for a city hotel and a resort hotel which included information such as,  when the booking was made; length of stay; the number of adults children, and/or babies and the number of available parking spaces, among other things.  Then, I used machine learning algorithms to develop booking cancellation prediction models for the hotels. 
 
-![TOC_Image_MLModels.png](attachment:TOC_Image_MLModels.png)
+<IMG SRC="./PPT_IMG/TOC_Image_MLModels.png" ALT="TOC_Image_MLModels">
 
 > __Best Model__ 
 
@@ -124,9 +138,11 @@ From our analysis, we concluded that the most useful features for prediction wer
 - market_segment_Online TA         0.020407
 - customer_type_Transient          0.019232
 
-## Model Prediction (GUI)
-To simulate a real production environment using of the models Random Forest Classifier, I built a Graphical User Interface (GUI) using Python - Tkinker to capture user input related to hotel booking key features to perform a prediction as either Booked or Canceled along with the prediction Probability. Having an application, such as this, could help to enable hoteliers to decrease the number of cancellations, thus, increasing confidence in demand-management decisions. 
-![TOC_Image_GUI.png](attachment:TOC_Image_GUI.png)
+## Demonstration - Model Prediction (GUI)
+To simulate a real production environment using of the models Random Forest Classifier, I built a Graphical User Interface (GUI) using Python - Tkinker to capture user input related to hotel booking key features to perform a prediction as either Booked or Canceled along with the prediction probability. Having an application, such as this, could help to enable hoteliers to decrease the number of cancellations, thus, increasing confidence in demand-management decisions. 
+
+
+<IMG SRC="./PPT_IMG/TOC_Image_GUI.png" ALT="TOC_Image_GUI">
 
 ## Time Series
 > Another key component, was to improvement the forecast accuracy. So, a time series model was built to help predict number of cancellations in the future.
@@ -134,7 +150,8 @@ To simulate a real production environment using of the models Random Forest Clas
 __SARIMAX(2,2,1)x(1, 1, 0, 52)__ yields the "lowest" __AIC value of 422.779__. Therefore, we considered this to be optimal option out of all the models we have considered and the "p-values" __(P>|z|) 0.000 < .05__.
 
 __Real vs Predicted values along with confidence interval__
-![TOC_Image_TimeSeries-1.png](attachment:TOC_Image_TimeSeries-1.png)
+
+<IMG SRC="./PPT_IMG/TOC_Image_TimeSeries-1.png" ALT="TOC_Image_TimeSeries-1">
 
 __Model Evaluation Scores__
 - Mean squared error: 211.47669613545847
@@ -142,7 +159,8 @@ __Model Evaluation Scores__
 - RMSE: 14.542238346810937
 
 __Performing Predictons in the future__
-![TOC_Image_TimeSeries-2.png](attachment:TOC_Image_TimeSeries-2.png)
+
+<IMG SRC="./PPT_IMG/TOC_Image_TimeSeries-2.png" ALT="TOC_Image_TimeSeries-2">
 
 - RMSE value ≥0.5 reflects the poor ability of the model to accurately predict the data, in this case RMSE: 14.54 from One-step Ahead Forecasting.
 - This time series has low-volume count data (less than 3 years of data); having MORE data could greatly improve the forecasting.
@@ -150,6 +168,6 @@ __Performing Predictons in the future__
 # Capstone Conclusions
 
 > By exposing cancellation drivers, machine learning models can help hoteliers to better understand booking cancellation patterns and enable the adjustment of a hotel’s cancellation policies and overbooking tactics according to the characteristics of its bookings.
-Moreover, this work shows that if hotel managers had access to an application (GUI) then they could act on bookings with high cancellation probability and contain the associated revenue losses.  Leading to other benefits, such as, improve overbooking/cancellation policies, and have more assertive pricing and inventory allocation strategies.
+Moreover, this work shows that if hotel managers had access to an application (GUI) then they could act on bookings with high cancellation probability and contain the associated revenue losses.  Leading to other benefits, such as, improve overbooking/cancellation policies, and have more assertive pricing and staffing allocation strategies.
 
-![TOC_Image_Thankyou.png](attachment:TOC_Image_Thankyou.png)
+<IMG SRC="./TOC_Image_Thankyou.png" ALT="TOC_Image_Thankyou">
