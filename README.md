@@ -7,8 +7,7 @@
 * __Student pace:__ part time - PT_0610
 * __Scheduled project review date/time:__ April 24, 2020
 * __Instructor name:__ Eli Thomas
-* __Blog post URL:__ "How to Pickle your Trained Model"
-    - https://medium.com/@spettiett/how-to-pickle-your-trained-model-f4b7051babaa?source=friends_link&sk=dccb5c965557f0964b1e554ebfb183e6
+
 
 ## The Dataset
 
