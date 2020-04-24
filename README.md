@@ -7,6 +7,8 @@
 * __Student pace:__ part time - PT_0610
 * __Scheduled project review date/time:__ April 24, 2020
 * __Instructor name:__ Eli Thomas
+* __Blog post URL:__ "How to Pickle your Trained Model"
+    - https://medium.com/@spettiett/how-to-pickle-your-trained-model-f4b7051babaa?source=friends_link&sk=dccb5c965557f0964b1e554ebfb183e6
 
 ## The Dataset
 
@@ -66,11 +68,6 @@ __Machine Learning Models Used:__
 
 ## Project Motivation
 > As a person who loves to travel I was very curious to see if I could use my new found skills in data science to solve "one of my biggest annoyances" - __hotel overbooking__.  But, first I would need to understand some of the drivers that create this unpleasant experience for customers, like myself. So, this project will walk you through several data science concepts and tools to help you gain more insights on important features used to predict hotel booking demand.
-
-## Video | The Horrors of Overbooking
-> __Source: comedycentral.com__
-
-<video autoplay loop controls src="./giphy.mp4" />
 
 ## Problem Statement
 - Reservations for resorts and hotels in __Lisbon, Portugal__ are experiencing __37%__ cancellations.
