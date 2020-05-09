@@ -8,6 +8,8 @@
 * __Scheduled project review date/time:__ April 24, 2020
 * __Instructor name:__ Eli Thomas
 
+## Project Description
+- This project walks you through several data science concepts and tools to help you gain more insights on important features used to predict hotel booking demand.
 
 ## The Dataset
 
