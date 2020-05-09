@@ -9,11 +9,11 @@
 * __Instructor name:__ Eli Thomas
 
 ## Project Description
-- This project walks you through several data science concepts and tools to help you gain more insights on important features used to predict hotel booking demand.
+This project walks you through several data science concepts and tools to help you gain more insights on important features used to predict hotel booking demand.
 
 ## The Dataset
 
-- This data set contains a single file which compares various booking information between two hotels: a city hotel and a resort hotel.  This data set includes information such as when the booking was made, length of stay, the number of adults, children, and/or babies, and the number of available parking spaces, among other things.
+This data set contains a single file which compares various booking information between two hotels: a city hotel and a resort hotel.  This data set includes information such as when the booking was made, length of stay, the number of adults, children, and/or babies, and the number of available parking spaces, among other things.
 
 > __Feature Description__
 
