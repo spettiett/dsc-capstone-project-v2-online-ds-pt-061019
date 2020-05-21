@@ -11,6 +11,9 @@
 ## Project Description
 This project walks you through several data science concepts and tools to help you gain more insights on important features used to predict hotel booking demand.
 
+## Project Blog
+To review further details on Hotel Booking Demand | Insights, read my Blog: https://medium.com/@spettiett/hotel-booking-demand-insights-ba4e67eb287d
+
 ## The Dataset
 
 This data set contains a single file which compares various booking information between two hotels: a city hotel and a resort hotel.  This data set includes information such as when the booking was made, length of stay, the number of adults, children, and/or babies, and the number of available parking spaces, among other things.
