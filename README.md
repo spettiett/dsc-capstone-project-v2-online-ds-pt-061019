@@ -12,7 +12,7 @@
 This project walks you through several data science concepts and tools to help you gain more insights on important features used to predict hotel booking demand.
 
 ## Project Blog
-To review further details on Hotel Booking Demand | Insights, read my Blog: https://medium.com/@spettiett/hotel-booking-demand-insights-ba4e67eb287d
+[Blog](https://medium.com/@spettiett/hotel-booking-demand-insights-ba4e67eb287d): __Hotel Booking Demand | Insights__ by Sharonda Pettiett-Warner
 
 ## The Dataset
 
@@ -31,14 +31,14 @@ This data set contains a single file which compares various booking information 
 # How to Navigate Jupyter Notebooks for Capstone Review
 
 > __Order of Navigation:__
-- __Part I   :__ Jupyter Notebook: __Capstone_EDA.ipynb__
-- __Part II  :__ Jupyter Notebook: __Capstone_Hypothesis Testing.ipynb__
-- __Part III :__ Jupyter Notebook: __Capstone_ML_Model - (Baseline and FeatEngr).ipynb__
-- __Part IV  :__ Jupyter Notebook: __Capstone_ML_Model (Final Prediction).ipynb__
-- __Part V   :__ Jupyter Notebook: __Capstone_Model_Prediction_Using_Tkinter.ipynb__(Demo)
-- __Part VI  :__ Jupyter Notebook: __Capstone_Time Series.ipynb__
-- __Part VII :__ Jupyter Notebook: __Capstone_Plotly_Graphs.ipynb__
-- __Part VIII:__ Jupyter Notebook: __Capstone_ML_Model(LazyPredict).ipynb__
+- __Part I   :__ Jupyter Notebook: [Capstone_EDA.ipynb](https://github.com/spettiett/dsc-capstone-project-v2-online-ds-pt-061019/blob/master/Capstone_EDA.ipynb)
+- __Part II  :__ Jupyter Notebook: [Capstone_Hypothesis Testing.ipynb](https://github.com/spettiett/dsc-capstone-project-v2-online-ds-pt-061019/blob/master/Capstone_Hypothesis%20Testing.ipynb)
+- __Part III :__ Jupyter Notebook: [Capstone_ML_Model - (Baseline and FeatEngr).ipynb](https://github.com/spettiett/dsc-capstone-project-v2-online-ds-pt-061019/blob/master/Capstone_ML_Model%20-%20(Baseline%20and%20FeatEngr).ipynb)
+- __Part IV  :__ Jupyter Notebook: [Capstone_ML_Model (Final Prediction).ipynb](https://github.com/spettiett/dsc-capstone-project-v2-online-ds-pt-061019/blob/master/Capstone_ML_Model%20(Final%20Prediction).ipynb)
+- __Part V   :__ Jupyter Notebook: [Capstone_Model_Prediction_Using_Tkinter.ipynb (Demo)](https://github.com/spettiett/dsc-capstone-project-v2-online-ds-pt-061019/blob/master/Capstone_Model_Prediction_Using_Tkinter.ipynb)
+- __Part VI  :__ Jupyter Notebook: [Capstone_Time Series.ipynb](https://github.com/spettiett/dsc-capstone-project-v2-online-ds-pt-061019/blob/master/Capstone_Time%20Series.ipynb)
+- __Part VII :__ Jupyter Notebook: [Capstone_Plotly_Graphs.ipynb](https://github.com/spettiett/dsc-capstone-project-v2-online-ds-pt-061019/blob/master/Capstone_Plotly_Graphs.ipynb)
+- __Part VIII:__ Jupyter Notebook: [Capstone_ML_Model(LazyPredict).ipynb](https://github.com/spettiett/dsc-capstone-project-v2-online-ds-pt-061019/blob/master/Capstone_ML_Model(LazyPredict).ipynb)
 
 # Learning Concepts and Tools
 
